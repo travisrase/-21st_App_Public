@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'The 21st' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for The 21st
+  pod 'PushNotifications'
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
+
+  target 'The 21stTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'The 21stUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

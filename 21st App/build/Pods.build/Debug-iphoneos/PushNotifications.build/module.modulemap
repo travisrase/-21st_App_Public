@@ -1,0 +1,11 @@
+framework module PushNotifications {
+  umbrella header "PushNotifications-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module PushNotifications.Swift {
+    header "PushNotifications-Swift.h"
+    requires objc
+}
